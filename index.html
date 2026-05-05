@@ -10,17 +10,19 @@
 <header class="header">
     <div class="contenedor header-contenido">
         <button class="btn-oscuro" onclick="modoOscuro()"> 🌙 Modo Oscuro</button>
-        <h1>Receta: Batido Verde para Adelgazar 🥤</h1>
+        <h1>Receta: Batido Verde para Adelgazar</h1>
         <p>Aprende a preparar un batido saludable paso a paso</p>
     </div>
 </header>
 
     <div class="contenedor">
-        
 
         <nav class="nav">
-            <h2>Contenido</h2>
-            <ol>
+            <div class="nav-header">
+                <h2>Contenido</h2>
+                <button class="btn-hamburguesa" onclick="toggleNav()" aria-label="Abrir menú">&#9776;</button>
+            </div>
+            <ol class="nav-lista">
                 <li><a href="#ingredientes">Ingredientes</a></li>
                 <li><a href="#preparacion">Preparación</a></li>
                 <li><a href="#beneficios">Beneficios</a></li>
@@ -31,10 +33,12 @@
         <section class="section" id="ingredientes">
             <h2>1. Ingredientes</h2>
             <div class="contenido">
-                <img src="./imagenes/1.JPG">
+                <img src="./imagenes/1.JPG" alt="Ingredientes del batido verde">
                 <p>
-                    Espinaca, manzana verde, pepino, limón y agua. Son ingredientes naturales
-                    que ayudan a mejorar la digestión.
+                    Para esta receta necesitas un puñado de espinaca fresca, una manzana verde,
+                    medio pepino, el jugo de medio limón y un vaso de agua fría. Todos estos
+                    ingredientes son naturales, bajos en azúcar y ricos en fibra, vitaminas y
+                    antioxidantes que contribuyen a mejorar la digestión y el bienestar general.
                 </p>
             </div>
         </section>
@@ -42,9 +46,13 @@
         <section class="section" id="preparacion">
             <h2>2. Preparación</h2>
             <div class="contenido">
-                <img src="./imagenes/2.JPG">
+                <img src="./imagenes/2.JPG" alt="Preparación del batido">
                 <p>
-                    Lava y corta los ingredientes. Licúa todo hasta obtener una mezcla homogénea.
+                    Lava bien todos los ingredientes bajo el chorro de agua. Pela el pepino y
+                    corta la manzana en trozos medianos retirando el corazón. Coloca todo en
+                    la licuadora junto con el agua y el jugo de limón. Licúa a velocidad alta
+                    durante un minuto hasta obtener una mezcla completamente homogénea y sin grumos.
+                    Si prefieres una textura más suave, puedes colarlo antes de servir.
                 </p>
             </div>
         </section>
@@ -52,9 +60,13 @@
         <section class="section" id="beneficios">
             <h2>3. Beneficios</h2>
             <div class="contenido">
-                <img src="./imagenes/3.JPG">
+                <img src="./imagenes/3.JPG" alt="Beneficios del batido verde">
                 <p>
-                    Bajo en calorías, mejora el metabolismo y aporta energía.
+                    Este batido es bajo en calorías y alto en nutrientes. La espinaca aporta
+                    hierro y magnesio, la manzana verde regula el azúcar en sangre, el pepino
+                    hidrata y el limón actúa como depurativo natural. Tomarlo en ayunas puede
+                    ayudar a activar el metabolismo, reducir la inflamación y mejorar los niveles
+                    de energía durante el día.
                 </p>
             </div>
         </section>
@@ -62,9 +74,13 @@
         <section class="section" id="resultado">
             <h2>4. Resultado Final</h2>
             <div class="contenido">
-                <img src="./imagenes/4.JPG">
+                <img src="./imagenes/4.JPG" alt="Batido verde listo para consumir">
                 <p>
-                    Sirve y consume inmediatamente para aprovechar los nutrientes.
+                    Una vez listo, sirve el batido en un vaso alto y consúmelo de inmediato
+                    para aprovechar al máximo sus nutrientes, ya que con el paso del tiempo
+                    los ingredientes se oxidan y pierden propiedades. Se recomienda tomarlo
+                    en ayunas o como acompañamiento de un desayuno ligero. Evita añadir azúcar
+                    para mantener sus beneficios naturales.
                 </p>
             </div>
         </section>
