@@ -104,3 +104,17 @@ a {
 .dark .section {
     background-color: #2c2c54;
 }
+
+@media (max-width: 600px) {
+
+    .header-contenido {
+        text-align: center;
+    }
+
+    .btn-oscuro {
+        position: static;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+}
