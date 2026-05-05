@@ -1,0 +1,106 @@
+body {
+    font-family: Arial;
+    background-color: #f5f6fa;
+    margin: 0;
+}
+
+/* HEADER */
+/* HEADER */
+.header {
+    background-color: #067e24;
+    padding: 20px 0;
+}
+
+/* CONTENIDO INTERNO DEL HEADER */
+.header-contenido {
+    position: relative;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+}
+.header p {
+    color: #dcdde1;
+    margin: 5px 0 0;
+}
+
+/* BOTÓN ARRIBA A LA IZQUIERDA */
+.btn-oscuro {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* CONTENEDOR GENERAL (CLAVE) */
+.contenedor {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* NAV */
+.nav {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* SECCIONES */
+.section {
+    background: rgb(151, 211, 151);
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* H2 ARRIBA (IMPORTANTE) */
+.section h2 {
+    margin-bottom: 10px;
+}
+
+/* CONTENIDO (IMAGEN + TEXTO) */
+.contenido {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenido img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.contenido p {
+    flex: 1;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #5f5fc4;
+}
+
+/* 🌙 MODO OSCURO */
+.dark {
+    background-color: #1e1e2f;
+    color: white;
+}
+
+.dark .nav,
+.dark .section {
+    background-color: #2c2c54;
+}
