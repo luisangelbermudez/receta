@@ -263,3 +263,22 @@ a:hover {
         height: 180px;
     }
 }
+
+.regresar{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.regresar a{
+    text-decoration: none;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.regresar a:hover{
+    background-color: #1b5e20;
+}
