@@ -282,3 +282,7 @@ a:hover {
 .regresar a:hover{
     background-color: #1b5e20;
 }
+
+html{
+    scroll-behavior: smooth;
+}
